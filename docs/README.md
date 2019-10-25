@@ -44,6 +44,7 @@ Check out all the features and their documentation [here](http://vscode-sqltools
 |![PostgreSQL](https://raw.githubusercontent.com/mtxr/vscode-sqltools/master/packages/ui/screens/Settings/icons/postgresql.png)|PostgreSQL|[@mtxr](https://github.com/mtxr)|
 |![SAPHana](https://raw.githubusercontent.com/mtxr/vscode-sqltools/master/packages/ui/screens/Settings/icons/sap_hana.png)|SAPHana|[ariel-bentu](https://github.com/ariel-bentu)|
 |![SQLite](https://raw.githubusercontent.com/mtxr/vscode-sqltools/master/packages/ui/screens/Settings/icons/sqlite.png)|SQLite|[@mtxr](https://github.com/mtxr) - ***looking for help***|
+|![TeradataSQL](https://raw.githubusercontent.com/mtxr/vscode-sqltools/master/packages/ui/screens/Settings/icons/teradatasql.png)|TeradataSQL|[@C1ARKGABLE](https://github.com/C1ARKGABLE) - ***looking for help***|
 
 
 Special thanks to this amazing developers that keep the project running!

@@ -8,6 +8,8 @@ import redshiftIcon from './../icons/redshift.png';
 import sapHanaIcon from './../icons/sap_hana.png';
 import sqliteIcon from './../icons/sqlite.png';
 import cassandraIcon from './../icons/cassandra.png';
+import teradataSQLIcon from './../icons/teradatasql.png';
+
 import { DatabaseDialect } from '@sqltools/core/interface';
 
 const requirements = [
@@ -158,6 +160,16 @@ const availableDialects: { [name: string]: Dialect } = {
     icon: cassandraIcon,
     requiredProps: () => {
       const props = { name: true, server: true, port: true, username: true };
+      return props;
+    }
+  },
+  TeradataSQL: {
+    port: 9042,
+    value: DatabaseDialect['TeradataSQL'],
+    text: 'TeradataSQL',
+    icon: teradataSQLIcon,
+    requiredProps: () => {
+      const props = { name: true, server: true, port: true, username: true, logmech: true};
       return props;
     }
   },

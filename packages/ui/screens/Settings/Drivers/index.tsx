@@ -6,6 +6,7 @@ import OracleDB from './OracleDB';
 import SQLite from './SQLite';
 import SAPHana from './SAPHana';
 import CQL from './CQL';
+import TeradataSQL from './TeradataSQL';
 
 const DriversSettings = {
   DB2,
@@ -17,7 +18,8 @@ const DriversSettings = {
   OracleDB,
   SQLite,
   SAPHana,
-  'Cassandra': CQL
+  'Cassandra': CQL,
+  TeradataSQL,
 };
 
 export default DriversSettings;

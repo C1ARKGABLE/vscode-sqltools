@@ -18,4 +18,5 @@ export enum DatabaseDialect {
   OracleDB = 'OracleDB',
   SAPHana = 'SAPHana',
   Cassandra = 'Cassandra',
+  TeradataSQL = 'TeradataSQL',
 }

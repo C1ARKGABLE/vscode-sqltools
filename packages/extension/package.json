@@ -50,7 +50,9 @@
         "sqlplus",
         "sqltools",
         "sap",
-        "saphana"
+        "saphana",
+        "teradatasql",
+        "teradata"
     ],
     "galleryBanner": {
         "theme": "dark",
@@ -489,7 +491,8 @@
                                     "OracleDB",
                                     "PostgreSQL",
                                     "SAPHana",
-                                    "SQLite"
+                                    "SQLite",
+                                    "TeradataSQL"
                                 ],
                                 "description": "Connection Dialect",
                                 "required": false

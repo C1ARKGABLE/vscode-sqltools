@@ -6,6 +6,7 @@ import PostgreSQL from './pgsql';
 import SQLite from './sqlite';
 import SAPHana from './saphana';
 import CQL from './cql';
+import TeradataSQL from './teradatasql';
 
 const dialects = {
   DB2,
@@ -18,6 +19,7 @@ const dialects = {
   SQLite,
   SAPHana,
   'Cassandra': CQL,
+  TeradataSQL, // add your dialect here to make it available for usage
 };
 
 export default dialects;
